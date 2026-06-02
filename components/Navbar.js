@@ -77,7 +77,7 @@ const Navbar = () => {
               <li className={styles.dropdownItem}><Link href="/services/catering" onClick={() => setIsOpen(false)}>Catering</Link></li>
               <li className={styles.dropdownItem}><Link href="/services/decor" onClick={() => setIsOpen(false)}>Decoration</Link></li>
               <li className={styles.dropdownItem}><Link href="/services/photography" onClick={() => setIsOpen(false)}>Photography</Link></li>
-              <li className={styles.dropdownItem}><Link href="/services/dj&sounds" onClick={() => setIsOpen(false)}>DJ & Sound</Link></li>
+              <li className={styles.dropdownItem}><Link href="/services/dj-and-sounds" onClick={() => setIsOpen(false)}>DJ & Sound</Link></li>
               <li className={styles.dropdownItem}><Link href="/services/makeup" onClick={() => setIsOpen(false)}>Makeup Artist</Link></li>
             </ul>
           </li>
