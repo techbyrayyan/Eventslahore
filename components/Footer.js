@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Footer = () => {
   return (
@@ -10,7 +11,7 @@ const Footer = () => {
           <div className="flex flex-col gap-10">
             <div>
               <Link href="/">
-                <img src="/logo.png" alt="EventLahore Logo" className="h-20 w-auto mb-6 object-contain" />
+                <Image src="/logo.png" alt="EventLahore Logo" width={160} height={80} className="h-20 w-auto mb-6 object-contain" />
               </Link>
               <p className="text-gray-500 text-sm leading-relaxed max-w-xs font-medium">
                 We make your special moments more special with our premium venues and top-class services.

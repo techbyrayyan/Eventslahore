@@ -1,4 +1,5 @@
 'use client';
+import Image from 'next/image';
 
 export default function DJSoundsPage() {
     return (
@@ -8,10 +9,11 @@ export default function DJSoundsPage() {
 
                 {/* Full-bleed Background Image with Elegant Gradient Fade */}
                 <div className="absolute inset-0 z-0">
-                    <img
+                    <Image
                         src="/img67.png"
                         alt="DJ & Sound Solutions"
-                        className="w-full h-full object-cover object-right md:object-center"
+                        fill sizes="100vw" priority
+                        className="object-cover object-right md:object-center"
                     />
                     {/* Desktop Overlay: Solid black on the left, fading to completely transparent before reaching the right side */}
                     <div
@@ -129,7 +131,7 @@ export default function DJSoundsPage() {
                         <div className="flex flex-col rounded-2xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.08)] hover:shadow-[0_8px_30px_rgb(212,175,55,0.2)] transition-shadow duration-300 bg-gradient-to-b from-[#fdfbf6] to-[#f6e5be]">
                             {/* Image Top */}
                             <div className="w-full h-32 sm:h-28 xl:h-32 relative">
-                                <img src="/img68.png" alt="Wedding DJ" className="w-full h-full object-cover" />
+                                <Image src="/img68.png" alt="Wedding DJ" fill sizes="(max-width: 768px) 50vw, 16vw" className="object-cover" />
                             </div>
                             {/* Content Bottom */}
                             <div className="p-4 sm:p-5 flex flex-col flex-grow items-start text-left">
@@ -152,7 +154,7 @@ export default function DJSoundsPage() {
                         {/* Card 2: Corporate Events */}
                         <div className="flex flex-col rounded-2xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.08)] hover:shadow-[0_8px_30px_rgb(212,175,55,0.2)] transition-shadow duration-300 bg-gradient-to-b from-[#fdfbf6] to-[#f6e5be]">
                             <div className="w-full h-32 sm:h-28 xl:h-32 relative">
-                                <img src="/img69.png" alt="Corporate Events" className="w-full h-full object-cover" />
+                                <Image src="/img69.png" alt="Corporate Events" fill sizes="(max-width: 768px) 50vw, 16vw" className="object-cover" />
                             </div>
                             <div className="p-4 sm:p-5 flex flex-col flex-grow items-start text-left">
                                 <div className="w-8 h-8 mb-3 text-[#bc8e2b]">
@@ -174,7 +176,7 @@ export default function DJSoundsPage() {
                         {/* Card 3: Private Parties */}
                         <div className="flex flex-col rounded-2xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.08)] hover:shadow-[0_8px_30px_rgb(212,175,55,0.2)] transition-shadow duration-300 bg-gradient-to-b from-[#fdfbf6] to-[#f6e5be]">
                             <div className="w-full h-32 sm:h-28 xl:h-32 relative">
-                                <img src="/img70.png" alt="Private Parties" className="w-full h-full object-cover" />
+                                <Image src="/img70.png" alt="Private Parties" fill sizes="(max-width: 768px) 50vw, 16vw" className="object-cover" />
                             </div>
                             <div className="p-4 sm:p-5 flex flex-col flex-grow items-start text-left">
                                 <div className="w-8 h-8 mb-3 text-[#bc8e2b]">
@@ -200,7 +202,7 @@ export default function DJSoundsPage() {
                         {/* Card 4: Live Performances */}
                         <div className="flex flex-col rounded-2xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.08)] hover:shadow-[0_8px_30px_rgb(212,175,55,0.2)] transition-shadow duration-300 bg-gradient-to-b from-[#fdfbf6] to-[#f6e5be]">
                             <div className="w-full h-32 sm:h-28 xl:h-32 relative">
-                                <img src="/img71.png" alt="Live Performances" className="w-full h-full object-cover" />
+                                <Image src="/img71.png" alt="Live Performances" fill sizes="(max-width: 768px) 50vw, 16vw" className="object-cover" />
                             </div>
                             <div className="p-4 sm:p-5 flex flex-col flex-grow items-start text-left">
                                 <div className="w-8 h-8 mb-3 text-[#bc8e2b]">
@@ -221,7 +223,7 @@ export default function DJSoundsPage() {
                         {/* Card 5: MC & Hosting */}
                         <div className="flex flex-col rounded-2xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.08)] hover:shadow-[0_8px_30px_rgb(212,175,55,0.2)] transition-shadow duration-300 bg-gradient-to-b from-[#fdfbf6] to-[#f6e5be]">
                             <div className="w-full h-32 sm:h-28 xl:h-32 relative">
-                                <img src="/img72.png" alt="MC & Hosting" className="w-full h-full object-cover" />
+                                <Image src="/img72.png" alt="MC & Hosting" fill sizes="(max-width: 768px) 50vw, 16vw" className="object-cover" />
                             </div>
                             <div className="p-4 sm:p-5 flex flex-col flex-grow items-start text-left">
                                 <div className="w-8 h-8 mb-3 text-[#bc8e2b]">
@@ -242,7 +244,7 @@ export default function DJSoundsPage() {
                         {/* Card 6: Sound & Lighting Setup */}
                         <div className="flex flex-col rounded-2xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.08)] hover:shadow-[0_8px_30px_rgb(212,175,55,0.2)] transition-shadow duration-300 bg-gradient-to-b from-[#fdfbf6] to-[#f6e5be]">
                             <div className="w-full h-32 sm:h-28 xl:h-32 relative">
-                                <img src="/img73.png" alt="Sound & Lighting Setup" className="w-full h-full object-cover" />
+                                <Image src="/img73.png" alt="Sound & Lighting Setup" fill sizes="(max-width: 768px) 50vw, 16vw" className="object-cover" />
                             </div>
                             <div className="p-4 sm:p-5 flex flex-col flex-grow items-start text-left">
                                 <div className="w-8 h-8 mb-3 text-[#bc8e2b]">
@@ -287,7 +289,7 @@ export default function DJSoundsPage() {
                         {/* Card 1: Premium Speakers */}
                         <div className="flex flex-col rounded-xl overflow-hidden border border-[#d4af37]/60 shadow-lg">
                             <div className="w-full h-48 sm:h-56 relative">
-                                <img src="/img74.png" alt="Premium Speakers" className="w-full h-full object-cover" />
+                                <Image src="/img74.png" alt="Premium Speakers" fill sizes="(max-width: 768px) 50vw, 20vw" className="object-cover" />
                             </div>
                             
                         </div>
@@ -295,7 +297,7 @@ export default function DJSoundsPage() {
                         {/* Card 2: DJ Consoles */}
                         <div className="flex flex-col rounded-xl overflow-hidden border border-[#d4af37]/60 shadow-lg">
                             <div className="w-full h-48 sm:h-56 relative">
-                                <img src="/img75.png" alt="DJ Consoles" className="w-full h-full object-cover" />
+                                <Image src="/img75.png" alt="DJ Consoles" fill sizes="(max-width: 768px) 50vw, 20vw" className="object-cover" />
                             </div>
                            
                         </div>
@@ -303,7 +305,7 @@ export default function DJSoundsPage() {
                         {/* Card 3: Wireless Microphones */}
                         <div className="flex flex-col rounded-xl overflow-hidden border border-[#d4af37]/60 shadow-lg">
                             <div className="w-full h-48 sm:h-56 relative">
-                                <img src="/img78.png" alt="Wireless Microphones" className="w-full h-full object-cover" />
+                                <Image src="/img78.png" alt="Wireless Microphones" fill sizes="(max-width: 768px) 50vw, 20vw" className="object-cover" />
                             </div>
                             
                         </div>
@@ -311,7 +313,7 @@ export default function DJSoundsPage() {
                         {/* Card 4: Mixers */}
                         <div className="flex flex-col rounded-xl overflow-hidden border border-[#d4af37]/60 shadow-lg">
                             <div className="w-full h-48 sm:h-56 relative">
-                                <img src="/img77.png" alt="Mixers" className="w-full h-full object-cover" />
+                                <Image src="/img77.png" alt="Mixers" fill sizes="(max-width: 768px) 50vw, 20vw" className="object-cover" />
                             </div>
                             
                         </div>
@@ -319,7 +321,7 @@ export default function DJSoundsPage() {
                         {/* Card 5: Stage Lighting */}
                         <div className="flex flex-col rounded-xl overflow-hidden border border-[#d4af37]/60 shadow-lg">
                             <div className="w-full h-48 sm:h-56 relative">
-                                <img src="/img76.png" alt="Stage Lighting" className="w-full h-full object-cover" />
+                                <Image src="/img76.png" alt="Stage Lighting" fill sizes="(max-width: 768px) 50vw, 20vw" className="object-cover" />
                             </div>
                             
                         </div>
@@ -527,7 +529,7 @@ export default function DJSoundsPage() {
                         
                         {/* Left Side Image */}
                         <div className="w-full md:w-[45%] h-64 md:h-auto relative">
-                            <img src="/img79.png" alt="Party Event" className="w-full h-full object-cover object-center" />
+                            <Image src="/img79.png" alt="Party Event" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover object-center" />
                             {/* Gradient fade into the right side */}
                             <div className="absolute inset-0 bg-gradient-to-r from-transparent via-[#120a03]/50 to-[#120a03] hidden md:block"></div>
                             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#120a03]/50 to-[#120a03] md:hidden"></div>

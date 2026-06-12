@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function VenuesPage() {
   return (
@@ -163,7 +164,7 @@ export default function VenuesPage() {
                 ].map((venue, i) => (
                   <div key={i} className="group bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-xl hover:border-[#d4af37]/20 transition-all duration-500">
                     <div className="relative h-40 overflow-hidden"> 
-                      <img src={venue.img} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" alt={venue.name} />
+                      <Image src={venue.img} fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover group-hover:scale-110 transition-transform duration-700" alt={venue.name} />
                       <div className="absolute top-3 left-3 bg-[#d4af37] text-black text-[8px] font-black px-2 py-1 rounded-md uppercase tracking-widest shadow-xl">
                         {venue.tag}
                       </div>

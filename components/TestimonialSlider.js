@@ -1,5 +1,6 @@
 'use client';
 import { useState, useEffect } from 'react';
+import Image from 'next/image';
 
 const testimonials = [
   { 
@@ -65,7 +66,7 @@ const TestimonialSlider = () => {
               <div className="flex items-center justify-between mb-2">
                 <div className="flex items-center gap-3">
                   <div className="w-14 h-14 rounded-full overflow-hidden border-2 border-white/10 group-hover:border-[#d4af37] transition-all">
-                    <img src={item.img} className="w-full h-full object-cover" alt={item.name} />
+                    <Image src={item.img} width={56} height={56} className="w-full h-full object-cover" alt={item.name} />
                   </div>
                   <h4 className="font-bold text-base text-white">{item.name}</h4>
                 </div>

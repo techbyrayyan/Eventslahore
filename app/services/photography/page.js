@@ -1,4 +1,5 @@
 'use client';
+import Image from 'next/image';
 
 export default function PhotographyPage() {
     return (
@@ -8,10 +9,11 @@ export default function PhotographyPage() {
 
                 {/* Full-bleed Background Image with Elegant Gradient Fade */}
                 <div className="absolute inset-0 z-0">
-                    <img
+                    <Image
                         src="/img61.png"
                         alt="Professional Photography"
-                        className="w-full h-full object-cover object-right md:object-center"
+                        fill sizes="100vw" priority
+                        className="object-cover object-right md:object-center"
                     />
                     {/* Desktop Overlay: Solid black on the left, fading to completely transparent before reaching the right side */}
                     <div
@@ -145,7 +147,7 @@ export default function PhotographyPage() {
                                 <h3 className="text-[13px] md:text-sm font-bold text-[#111] leading-tight text-left">Wedding<br />Photography</h3>
                             </div>
                             <div className="w-full aspect-square rounded-lg overflow-hidden mb-4 shrink-0 bg-gray-200">
-                                <img src="/img62.png" alt="Wedding Photography" className="w-full h-full object-cover" />
+                                <Image src="/img62.png" alt="Wedding Photography" fill sizes="(max-width: 768px) 50vw, 16vw" className="object-cover" />
                             </div>
                             <p className="text-gray-500 text-xs leading-relaxed text-center mt-auto">
                                 Beautiful, candid, and traditional coverage of your special day.
@@ -164,7 +166,7 @@ export default function PhotographyPage() {
                                 <h3 className="text-[13px] md:text-sm font-bold text-[#111] leading-tight text-left">Cinematic<br />Videography</h3>
                             </div>
                             <div className="w-full aspect-square rounded-lg overflow-hidden mb-4 shrink-0 bg-gray-200">
-                                <img src="/img57.png" alt="Cinematic Videography" className="w-full h-full object-cover" />
+                                <Image src="/img57.png" alt="Cinematic Videography" fill sizes="(max-width: 768px) 50vw, 16vw" className="object-cover" />
                             </div>
                             <p className="text-gray-500 text-xs leading-relaxed text-center mt-auto">
                                 Movie-like highlight reels and full event documentary films.
@@ -183,7 +185,7 @@ export default function PhotographyPage() {
                                 <h3 className="text-[13px] md:text-sm font-bold text-[#111] leading-tight text-left">Pre-Wedding<br />Shoots</h3>
                             </div>
                             <div className="w-full aspect-square rounded-lg overflow-hidden mb-4 shrink-0 bg-gray-200">
-                                <img src="/img63.png" alt="Pre-Wedding Shoots" className="w-full h-full object-cover" />
+                                <Image src="/img63.png" alt="Pre-Wedding Shoots" fill sizes="(max-width: 768px) 50vw, 16vw" className="object-cover" />
                             </div>
                             <p className="text-gray-500 text-xs leading-relaxed text-center mt-auto">
                                 Romantic outdoor and indoor couple photography sessions.
@@ -202,7 +204,7 @@ export default function PhotographyPage() {
                                 <h3 className="text-[13px] md:text-sm font-bold text-[#111] leading-tight text-left">Corporate<br />Events</h3>
                             </div>
                             <div className="w-full aspect-square rounded-lg overflow-hidden mb-4 shrink-0 bg-gray-200">
-                                <img src="/img64.png" alt="Corporate Events" className="w-full h-full object-cover" />
+                                <Image src="/img64.png" alt="Corporate Events" fill sizes="(max-width: 768px) 50vw, 16vw" className="object-cover" />
                             </div>
                             <p className="text-gray-500 text-xs leading-relaxed text-center mt-auto">
                                 Professional coverage for galas, seminars, and company parties.
@@ -221,7 +223,7 @@ export default function PhotographyPage() {
                                 <h3 className="text-[13px] md:text-sm font-bold text-[#111] leading-tight text-left">Fashion &amp;<br />Portraits</h3>
                             </div>
                             <div className="w-full aspect-square rounded-lg overflow-hidden mb-4 shrink-0 bg-gray-200">
-                                <img src="/img65.png" alt="Portraits" className="w-full h-full object-cover" />
+                                <Image src="/img65.png" alt="Portraits" fill sizes="(max-width: 768px) 50vw, 16vw" className="object-cover" />
                             </div>
                             <p className="text-gray-500 text-xs leading-relaxed text-center mt-auto">
                                 Studio and location shoots for personal branding and fashion.
@@ -242,7 +244,7 @@ export default function PhotographyPage() {
                                 <h3 className="text-[13px] md:text-sm font-bold text-[#111] leading-tight text-left">Canded<br />Photography</h3>
                             </div>
                             <div className="w-full aspect-square rounded-lg overflow-hidden mb-4 shrink-0 bg-gray-200">
-                                <img src="/img25.png" alt="Birthday Parties" className="w-full h-full object-cover" />
+                                <Image src="/img25.png" alt="Birthday Parties" fill sizes="(max-width: 768px) 50vw, 16vw" className="object-cover" />
                             </div>
                             <p className="text-gray-500 text-xs leading-relaxed text-center mt-auto">
                                 Fun and vibrant photography for birthdays of all ages.
@@ -277,27 +279,27 @@ export default function PhotographyPage() {
 
                         {/* Card 1 */}
                         <div className="group relative rounded-xl overflow-hidden border border-[#d4af37] transition-all duration-300 aspect-[4/5]">
-                            <img src="/img52.png" alt="Photography Portfolio 1" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                            <Image src="/img52.png" alt="Photography Portfolio 1" fill sizes="(max-width: 768px) 50vw, 16vw" className="object-cover group-hover:scale-105 transition-transform duration-700" />
                         </div>
 
                         {/* Card 2 */}
                         <div className="group relative rounded-xl overflow-hidden border border-[#d4af37] transition-all duration-300 aspect-[4/5]">
-                            <img src="/img62.png" alt="Photography Portfolio 2" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                            <Image src="/img62.png" alt="Photography Portfolio 2" fill sizes="(max-width: 768px) 50vw, 16vw" className="object-cover group-hover:scale-105 transition-transform duration-700" />
                         </div>
 
                         {/* Card 3 */}
                         <div className="group relative rounded-xl overflow-hidden border border-[#d4af37] transition-all duration-300 aspect-[4/5]">
-                            <img src="/img48.png" alt="Photography Portfolio 3" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                            <Image src="/img48.png" alt="Photography Portfolio 3" fill sizes="(max-width: 768px) 50vw, 16vw" className="object-cover group-hover:scale-105 transition-transform duration-700" />
                         </div>
 
                         {/* Card 4 */}
                         <div className="group relative rounded-xl overflow-hidden border border-[#d4af37] transition-all duration-300 aspect-[4/5]">
-                            <img src="/img7.png" alt="Photography Portfolio 4" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                            <Image src="/img7.png" alt="Photography Portfolio 4" fill sizes="(max-width: 768px) 50vw, 16vw" className="object-cover group-hover:scale-105 transition-transform duration-700" />
                         </div>
 
                         {/* Card 5 */}
                         <div className="group relative rounded-xl overflow-hidden border border-[#d4af37] transition-all duration-300 aspect-[4/5]">
-                            <img src="/img54.png" alt="Photography Portfolio 5" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                            <Image src="/img54.png" alt="Photography Portfolio 5" fill sizes="(max-width: 768px) 50vw, 16vw" className="object-cover group-hover:scale-105 transition-transform duration-700" />
                         </div>
 
                     </div>
@@ -508,7 +510,7 @@ export default function PhotographyPage() {
                 <div className="absolute inset-0 z-0 flex">
                     {/* Image on the left half */}
                     <div className="w-full md:w-[50%] lg:w-[45%] h-full relative">
-                        <img src="/img25.png" alt="Photography Camera" className="w-full h-full object-cover object-left" />
+                        <Image src="/img25.png" alt="Photography Camera" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover object-left" />
                         {/* Gradient to blend seamlessly into the black background on the right */}
                         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-black/40 to-black"></div>
                         {/* Mobile overlay to ensure text readability if it stacks */}
