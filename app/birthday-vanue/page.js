@@ -230,7 +230,7 @@ export default function BirthdayVanuePage() {
                 </div>
                 <div>
                   <h3 className="text-sm font-black text-white mb-1 uppercase tracking-tight">Unmatched Variety</h3>
-                  <p className="text-[11px] font-medium text-gray-500 leading-relaxed">Choose from Lahore's best venues all in one place.</p>
+                  <p className="text-[11px] font-medium text-gray-500 leading-relaxed">Choose from Lahore&apos;s best venues all in one place.</p>
                 </div>
               </div>
 
@@ -241,7 +241,7 @@ export default function BirthdayVanuePage() {
                 </div>
                 <div>
                   <h3 className="text-sm font-black text-white mb-1 uppercase tracking-tight">Everything You Need</h3>
-                  <p className="text-[11px] font-medium text-gray-500 leading-relaxed">Catering, Décor, Entertainment & more - we've got it all.</p>
+                  <p className="text-[11px] font-medium text-gray-500 leading-relaxed">Catering, Décor, Entertainment & more - we&apos;ve got it all.</p>
                 </div>
               </div>
 

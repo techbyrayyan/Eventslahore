@@ -33,11 +33,11 @@ const Navbar = () => {
               Venues <span className={styles.arrow}>▼</span>
             </Link>
             <ul className={styles.dropdownMenu}>
-              <li className={styles.dropdownItem}><Link href="/venues/marriage-halls" onClick={() => setIsOpen(false)}>Marriage Halls</Link></li>
-              <li className={styles.dropdownItem}><Link href="/venues/marquees" onClick={() => setIsOpen(false)}>Marquees</Link></li>
-              <li className={styles.dropdownItem}><Link href="/venues/farmhouses" onClick={() => setIsOpen(false)}>Farmhouses</Link></li>
+              <li className={styles.dropdownItem}><Link href="/venues" onClick={() => setIsOpen(false)}>Marriage Halls</Link></li>
+              <li className={styles.dropdownItem}><Link href="/venues" onClick={() => setIsOpen(false)}>Marquees</Link></li>
+              <li className={styles.dropdownItem}><Link href="/farmhouses" onClick={() => setIsOpen(false)}>Farmhouses</Link></li>
               <li className={styles.dropdownItem}><Link href="/birthday-vanue" onClick={() => setIsOpen(false)}>Birthday Venues</Link></li>
-              <li className={styles.dropdownItem}><Link href="/venues/corporate-halls" onClick={() => setIsOpen(false)}>Corporate Halls</Link></li>
+              <li className={styles.dropdownItem}><Link href="/venues" onClick={() => setIsOpen(false)}>Corporate Halls</Link></li>
             </ul>
           </li>
 
@@ -54,10 +54,10 @@ const Navbar = () => {
               Packages <span className={styles.arrow}>▼</span>
             </Link>
             <ul className={styles.dropdownMenu}>
-              <li className={styles.dropdownItem}><Link href="/packages/wedding" onClick={() => setIsOpen(false)}>Wedding Packages</Link></li>
-              <li className={styles.dropdownItem}><Link href="/packages/birthday" onClick={() => setIsOpen(false)}>Birthday Packages</Link></li>
-              <li className={styles.dropdownItem}><Link href="/packages/mehndi" onClick={() => setIsOpen(false)}>Mehndi Packages</Link></li>
-              <li className={styles.dropdownItem}><Link href="/packages/corporate" onClick={() => setIsOpen(false)}>Corporate Packages</Link></li>
+              <li className={styles.dropdownItem}><Link href="/wedding-packages" onClick={() => setIsOpen(false)}>Wedding Packages</Link></li>
+              <li className={styles.dropdownItem}><Link href="/wedding-packages" onClick={() => setIsOpen(false)}>Birthday Packages</Link></li>
+              <li className={styles.dropdownItem}><Link href="/wedding-packages" onClick={() => setIsOpen(false)}>Mehndi Packages</Link></li>
+              <li className={styles.dropdownItem}><Link href="/wedding-packages" onClick={() => setIsOpen(false)}>Corporate Packages</Link></li>
             </ul>
           </li>
 
@@ -78,7 +78,7 @@ const Navbar = () => {
               <li className={styles.dropdownItem}><Link href="/services/decor" onClick={() => setIsOpen(false)}>Decoration</Link></li>
               <li className={styles.dropdownItem}><Link href="/services/photography" onClick={() => setIsOpen(false)}>Photography</Link></li>
               <li className={styles.dropdownItem}><Link href="/services/dj-and-sounds" onClick={() => setIsOpen(false)}>DJ & Sound</Link></li>
-              <li className={styles.dropdownItem}><Link href="/services/makeup" onClick={() => setIsOpen(false)}>Makeup Artist</Link></li>
+              <li className={styles.dropdownItem}><Link href="/services" onClick={() => setIsOpen(false)}>Makeup Artist</Link></li>
             </ul>
           </li>
 

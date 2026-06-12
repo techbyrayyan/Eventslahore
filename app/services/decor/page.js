@@ -553,7 +553,7 @@ export default function DecorationPage() {
               <div className="flex-1 flex flex-col md:flex-row items-start md:items-center gap-6">
                 <div className="max-w-xs">
                   <h3 className="text-2xl sm:text-3xl font-playfair font-semibold text-white leading-tight">
-                    Let's Decorate Your <br className="hidden sm:block" />
+                    Let&apos;s Decorate Your <br className="hidden sm:block" />
                     <span className="text-[#d4af37]">Next Big Moment!</span>
                   </h3>
                 </div>

@@ -539,7 +539,7 @@ export default function DJSoundsPage() {
                             <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-6">
                                 <div className="text-left max-w-md">
                                     <h2 className="text-2xl md:text-3xl font-playfair font-bold text-white leading-tight mb-2">
-                                        Let's Make Your Event <br />
+                                        Let&apos;s Make Your Event <br />
                                         <span className="text-[#d4af37]">Sound Amazing!</span>
                                     </h2>
                                     <p className="text-[#b0b0b0] text-sm leading-relaxed mb-4 lg:mb-0">

@@ -23,7 +23,7 @@ export default function Home() {
         <div className="relative z-10 max-w-[1400px] w-full mx-auto pt-20">
           <div className="max-w-4xl animate-in fade-in slide-in-from-left-10 duration-1000">
             <h1 className="text-5xl font-bold mb-6 tracking-tight leading-[1.05]">
-              Lahore's Most Trusted <br />
+              Lahore&apos;s Most Trusted <br />
               <span className="text-[#d4af37]">Event Booking Platform</span>
             </h1>
             <p className="text-xl  text-gray-300 mb-16 max-w-2xl leading-relaxed">
@@ -189,7 +189,7 @@ export default function Home() {
             <h2 className="text-3xl md:text-4xl font-bold mb-3 text-[#d4af37] tracking-tight">Popular Packages</h2>
             <p className="text-gray-400 text-base font-medium">Choose from our most popular event packages</p>
           </div>
-          <Link href="/packages" className="text-[#d4af37] font-bold text-xs uppercase tracking-[0.1em] flex items-center gap-2 group border border-[#d4af37]/30 px-5 py-2 rounded-lg hover:bg-[#d4af37] hover:text-black transition-all">
+          <Link href="/wedding-packages" className="text-[#d4af37] font-bold text-xs uppercase tracking-[0.1em] flex items-center gap-2 group border border-[#d4af37]/30 px-5 py-2 rounded-lg hover:bg-[#d4af37] hover:text-black transition-all">
             View All Packages <span className="group-hover:translate-x-1 transition-transform">→</span>
           </Link>
         </div>

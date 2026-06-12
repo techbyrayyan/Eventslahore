@@ -363,7 +363,7 @@ export default function CateringPage() {
 
             {/* Description Paragraph */}
             <p className="text-gray-300 text-sm sm:text-base mb-8 leading-relaxed font-medium">
-              Whether you prefer traditional, continental, or fusion cuisine, we customize every menu to match your theme and guests' preferences.
+              Whether you prefer traditional, continental, or fusion cuisine, we customize every menu to match your theme and guests&apos; preferences.
             </p>
 
             {/* Feature List with Elegant Circular Gold Checkmark Icons */}
@@ -521,7 +521,7 @@ export default function CateringPage() {
   </div>
   {/* Content (left side) */}
   <div className="relative z-10 w-full max-w-[1440px] mx-auto px-6 sm:px-12 md:pl-16 lg:pl-24 py-16 md:py-20 text-left">
-    <h2 className="text-3xl sm:text-4xl font-playfair font-medium text-white mb-6">Let's Make Your Event Delicious!</h2>
+    <h2 className="text-3xl sm:text-4xl font-playfair font-medium text-white mb-6">Let&apos;s Make Your Event Delicious!</h2>
     <p className="text-gray-300 text-sm sm:text-base mb-8 max-w-[400px]">
     Book our catering services today and treat your guests with the best food.
     </p>

@@ -36,7 +36,7 @@ const Footer = () => {
             <ul className="flex flex-col gap-5 text-gray-500 text-sm font-semibold">
               <li><Link href="/" className="hover:text-[#d4af37] transition-all hover:translate-x-1 inline-block">Home</Link></li>
               <li><Link href="/venues" className="hover:text-[#d4af37] transition-all hover:translate-x-1 inline-block">Venues</Link></li>
-              <li><Link href="/packages" className="hover:text-[#d4af37] transition-all hover:translate-x-1 inline-block">Packages</Link></li>
+              <li><Link href="/wedding-packages" className="hover:text-[#d4af37] transition-all hover:translate-x-1 inline-block">Packages</Link></li>
               <li><Link href="/services" className="hover:text-[#d4af37] transition-all hover:translate-x-1 inline-block">Services</Link></li>
               <li><Link href="/about" className="hover:text-[#d4af37] transition-all hover:translate-x-1 inline-block">About Us</Link></li>
               <li><Link href="/blog" className="hover:text-[#d4af37] transition-all hover:translate-x-1 inline-block">Blog</Link></li>
@@ -51,8 +51,8 @@ const Footer = () => {
               <li><Link href="/services/catering" className="hover:text-[#d4af37] transition-all hover:translate-x-1 inline-block">Catering</Link></li>
               <li><Link href="/services/decor" className="hover:text-[#d4af37] transition-all hover:translate-x-1 inline-block">Decoration</Link></li>
               <li><Link href="/services/photography" className="hover:text-[#d4af37] transition-all hover:translate-x-1 inline-block">Photography</Link></li>
-              <li><Link href="/services/dj-sound" className="hover:text-[#d4af37] transition-all hover:translate-x-1 inline-block">DJ & Sound</Link></li>
-              <li><Link href="/services/makeup" className="hover:text-[#d4af37] transition-all hover:translate-x-1 inline-block">Makeup Artist</Link></li>
+              <li><Link href="/services/dj-and-sounds" className="hover:text-[#d4af37] transition-all hover:translate-x-1 inline-block">DJ & Sound</Link></li>
+              <li><Link href="/services" className="hover:text-[#d4af37] transition-all hover:translate-x-1 inline-block">Makeup Artist</Link></li>
               <li><Link href="/services" className="hover:text-[#d4af37] transition-all hover:translate-x-1 inline-block">All Services</Link></li>
             </ul>
           </div>

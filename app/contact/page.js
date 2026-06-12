@@ -27,7 +27,7 @@ export default function ContactPage() {
               Contact Us
             </span>
             <h1 className="text-5xl font-bold  tracking-tight leading-[1.1] mt-6">
-              We're Here to Help You <br />
+              We&apos;re Here to Help You <br />
               <span className="text-[#d4af37]">Plan The Perfect Event</span>
             </h1>
             <p className="text-lg  text-white mb-10 mt-6 max-w-2xl ">
@@ -72,7 +72,7 @@ export default function ContactPage() {
                   <div className="h-[1px] w-24 bg-[#b08d57]/30"></div>
                 </div>
                 <p className="text-gray-500 text-sm leading-relaxed mb-8">
-                  Whether you're planning a wedding, birthday, corporate event or any special occasion — we're just a message away.
+                  Whether you&apos;re planning a wedding, birthday, corporate event or any special occasion — we&apos;re just a message away.
                 </p>
               </div>
 

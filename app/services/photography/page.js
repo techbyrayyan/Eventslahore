@@ -218,7 +218,7 @@ export default function PhotographyPage() {
                                         <circle cx="12" cy="7" r="4" />
                                     </svg>
                                 </div>
-                                <h3 className="text-[13px] md:text-sm font-bold text-[#111] leading-tight text-left">Fashion &<br />Portraits</h3>
+                                <h3 className="text-[13px] md:text-sm font-bold text-[#111] leading-tight text-left">Fashion &amp;<br />Portraits</h3>
                             </div>
                             <div className="w-full aspect-square rounded-lg overflow-hidden mb-4 shrink-0 bg-gray-200">
                                 <img src="/img65.png" alt="Portraits" className="w-full h-full object-cover" />
@@ -448,7 +448,7 @@ export default function PhotographyPage() {
                                     </svg>
                                     <div className="absolute -right-2 top-0 w-6 h-6 rounded-full bg-[#d4af37] text-black flex items-center justify-center text-xs font-bold border-2 border-black">2</div>
                                 </div>
-                                <h3 className="text-base font-bold text-white mb-2">Planning & Concept</h3>
+                                <h3 className="text-base font-bold text-white mb-2">Planning &amp; Concept</h3>
                                 <p className="text-gray-400 text-xs sm:text-sm leading-relaxed max-w-[200px] mx-auto">We plan the shoot structure, lighting, and timeline.</p>
                             </div>
 
@@ -523,7 +523,7 @@ export default function PhotographyPage() {
 
                     <div className="max-w-md text-center lg:text-left">
                         <h2 className="text-3xl sm:text-4xl lg:text-[40px] font-playfair font-semibold text-white mb-3 leading-tight">
-                            Let's Capture Your <br />
+                            Let&apos;s Capture Your <br />
                             <span className="text-[#d4af37]">Beautiful Moments!</span>
                         </h2>
                         <p className="text-gray-300 text-sm leading-relaxed">

@@ -39,7 +39,7 @@ const AboutPage = () => {
 
               {/* Description Text */}
               <p className="text-gray-200 text-sm md:text-base leading-relaxed mb-12 max-w-md font-light">
-                EventLahore is Pakistan's most trusted platform to book 
+                EventLahore is Pakistan&apos;s most trusted platform to book 
                 marriage halls, marquees, farmhouses & all event services 
                 - all in one place, with zero direct contact with hall owners.
               </p>

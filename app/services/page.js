@@ -221,7 +221,7 @@ const services = [
     description: "High quality sound systems and DJs to keep the energy high.",
     icon: "fas fa-music",
     image: "/img4.png",
-    link: "/services/dj-sound"
+    link: "/services/dj-and-sounds"
   },
   {
     title: "Makeup Artist",
