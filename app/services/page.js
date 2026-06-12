@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 
 export default function ServicesPage() {
   return (
@@ -99,12 +98,10 @@ export default function ServicesPage() {
               <div key={index} className="group  rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 border  flex flex-col h-full">
                 {/* Image Wrapper */}
                 <div className="relative h-36 overflow-hidden">
-                  <Image 
+                  <img 
                     src={service.image} 
                     alt={service.title}
-                    fill
-                    sizes="(max-width: 768px) 100vw, 20vw"
-                    className="object-cover group-hover:scale-110 transition-transform duration-500"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
                 </div>
 

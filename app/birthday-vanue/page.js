@@ -1,6 +1,5 @@
 'use client';
 import Link from 'next/link';
-import Image from 'next/image';
 
 export default function BirthdayVanuePage() {
   return (
@@ -178,7 +177,7 @@ export default function BirthdayVanuePage() {
                   <div key={i} className="group bg-[#111] rounded-2xl overflow-hidden border border-white/5 hover:border-[#d4af37]/30 transition-all duration-500 shadow-2xl hover:shadow-[#d4af37]/10 flex flex-col h-full">
                     <div className="h-44 bg-gray-900 relative overflow-hidden">
                       <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent z-10 opacity-60"></div>
-                      <Image src={venue.img} fill sizes="(max-width: 768px) 100vw, 25vw" className="object-cover group-hover:scale-110 transition-transform duration-700" alt={venue.name} />
+                      <img src={venue.img} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" alt={venue.name} />
                       <div className="absolute top-3 left-3 z-20">
                         <span className="bg-[#d4af37] text-black text-[8px] font-black px-1.5 py-0.5 rounded uppercase tracking-wider shadow-lg">Featured</span>
                       </div>

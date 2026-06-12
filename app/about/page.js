@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 
 const AboutPage = () => {
   return (
@@ -77,10 +76,9 @@ const AboutPage = () => {
             <div className="w-full lg:w-[45%] relative group">
               <div className="absolute -inset-1.5 border border-[#d4af37]/60 rounded-[2rem] z-0"></div>
               <div className="relative z-10 overflow-hidden rounded-[1.8rem]">
-                <Image 
+                <img 
                   src="/img17.png" 
                   alt="Premium Event Setup" 
-                  width={800} height={600}
                   className="w-full h-auto object-cover transform transition-transform duration-700 group-hover:scale-105"
                 />
               </div>
@@ -267,10 +265,9 @@ const AboutPage = () => {
               <div className="relative">
                 {/* Subtle glow behind phone */}
                 <div className="absolute inset-0 bg-[#d4af37]/10 blur-[100px] rounded-full"></div>
-                <Image 
+                <img 
                   src="/img20.png" 
                   alt="EventLahore App" 
-                  width={700} height={900}
                   className="w-full h-auto relative z-10 drop-shadow-[0_20px_50px_rgba(0,0,0,0.5)]"
                 />
               </div>
@@ -282,12 +279,10 @@ const AboutPage = () => {
       <section className="relative h-[600px] flex items-center overflow-hidden bg-black">
         {/* Background Image on the left */}
         <div className="absolute inset-y-0 left-0 w-full md:w-[60%] z-0">
-          <Image 
+          <img 
             src="/img19.png" 
             alt="Event Atmosphere" 
-            fill
-            sizes="60vw"
-            className="object-cover object-left"
+            className="w-full h-full object-cover object-left"
           />
           {/* Strong gradient to transition from image (left) to solid black (right) */}
           <div className="absolute inset-0 bg-gradient-to-r from-transparent via-black/40 to-black"></div>

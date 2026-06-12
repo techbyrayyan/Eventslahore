@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 
 const HowItWorksPage = () => {
   return (
@@ -140,12 +139,10 @@ const HowItWorksPage = () => {
             ].map((venue, index) => (
               <div key={index} className="relative h-[400px] rounded-3xl overflow-hidden group cursor-pointer shadow-2xl">
                 {/* Background Image */}
-                <Image 
+                <img 
                   src={venue.img} 
                   alt={venue.title} 
-                  fill
-                  sizes="(max-width: 768px) 100vw, 33vw"
-                  className="object-cover transition-transform duration-700 group-hover:scale-110"
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                 />
                 {/* Bottom Overlay Content */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent"></div>
@@ -196,12 +193,10 @@ const HowItWorksPage = () => {
               <div key={index} className="flex flex-col items-center group">
                 {/* Image Container */}
                 <div className="relative w-full aspect-[4/5] rounded-xl overflow-hidden mb-6 border border-white/10 group-hover:border-[#d4af37]/50 transition-all duration-500">
-                  <Image 
+                  <img 
                     src={service.img} 
                     alt={service.title} 
-                    fill
-                    sizes="(max-width: 768px) 50vw, 16vw"
-                    className="object-cover transition-transform duration-700 group-hover:scale-105"
+                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                 </div>
                 
@@ -223,12 +218,10 @@ const HowItWorksPage = () => {
       <section className="relative h-[450px] flex items-center overflow-hidden bg-black mt-24">
         {/* Background Image on the left */}
         <div className="absolute inset-y-0 left-0 w-full md:w-1/2 z-0">
-          <Image 
+          <img 
             src="/img22.png" 
             alt="Event Atmosphere" 
-            fill
-            sizes="(max-width: 768px) 100vw, 50vw"
-            className="object-cover object-left"
+            className="w-full h-full object-cover object-left"
           />
           {/* Gradient to blend image with black background on the right */}
           <div className="absolute inset-0 bg-gradient-to-r from-transparent via-black/50 to-black"></div>

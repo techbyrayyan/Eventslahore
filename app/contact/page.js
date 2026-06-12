@@ -1,6 +1,5 @@
 'use client';
 import Link from 'next/link';
-import Image from 'next/image';
 
 export default function ContactPage() {
   return (
@@ -101,12 +100,10 @@ export default function ContactPage() {
             {/* Center Column: Image */}
             <div className="lg:col-span-5 px-4 h-full">
               <div className="relative h-[650px] w-full rounded-[40px] overflow-hidden shadow-2xl group">
-                <Image 
+                <img 
                   src="/img29.png" 
                   alt="Luxury Event Decor" 
-                  fill
-                  sizes="(max-width: 1024px) 100vw, 40vw"
-                  className="object-cover transition-transform duration-1000 group-hover:scale-110"
+                  className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
               </div>
@@ -190,12 +187,10 @@ export default function ContactPage() {
               <div key={index} className="flex flex-col items-center group">
                 {/* Image Container */}
                 <div className="relative w-full aspect-[4/5] rounded-xl overflow-hidden mb-6 border border-white/10 group-hover:border-[#d4af37]/50 transition-all duration-500">
-                  <Image 
+                  <img 
                     src={service.img} 
                     alt={service.title} 
-                    fill
-                    sizes="(max-width: 768px) 50vw, 16vw"
-                    className="object-cover transition-transform duration-700 group-hover:scale-105"
+                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                 </div>
                 
@@ -242,12 +237,10 @@ export default function ContactPage() {
               
               {/* Right Image Container */}
               <div className="h-full min-h-[350px] lg:min-h-full relative overflow-hidden">
-                <Image 
+                <img 
                   src="/img30.png" 
                   alt="Dream Event Setup" 
-                  fill
-                  sizes="(max-width: 1024px) 100vw, 50vw"
-                  className="object-cover transition-transform duration-[10s] hover:scale-110"
+                  className="w-full h-full object-cover transition-transform duration-[10s] hover:scale-110"
                 />
                 {/* Gradient overlap for smooth transition */}
                 <div className="absolute inset-y-0 left-0 w-48 bg-gradient-to-r from-[#0a0a0a] to-transparent hidden lg:block"></div>

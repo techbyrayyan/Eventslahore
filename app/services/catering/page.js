@@ -1,5 +1,4 @@
 'use client';
-import Image from 'next/image';
 import { useState } from 'react';
 import Link from 'next/link';
 
@@ -118,11 +117,10 @@ export default function CateringPage() {
         
         {/* Full-bleed Background Image with Elegant Gradient Fade */}
         <div className="absolute inset-0 z-0">
-          <Image 
+          <img 
             src="/img44.png" 
             alt="Delicious Catering Buffet Table" 
-            fill sizes="100vw" priority
-            className="object-cover object-right md:object-center"
+            className="w-full h-full object-cover object-right md:object-center"
           />
           {/* Desktop Overlay: Solid black on the left, fading to completely transparent before reaching the right side to preserve original colors */}
           <div 
@@ -323,11 +321,10 @@ export default function CateringPage() {
         
         {/* Full-bleed Background Image with Elegant Gradient Fade */}
         <div className="absolute inset-0 z-0">
-          <Image 
+          <img 
             src="/img46.png" 
             alt="Tailored Gourmet Catering Dinner Table" 
-            fill sizes="100vw"
-            className="object-cover object-right md:object-center"
+            className="w-full h-full object-cover object-right md:object-center"
           />
           {/* Desktop Overlay: Solid black on the left, fading to completely transparent before reaching the right side to preserve original colors */}
           <div 
@@ -516,7 +513,7 @@ export default function CateringPage() {
       <section className="relative w-full bg-[#000] text-white overflow-hidden min-h-[500px] md:h-[550px] lg:h-[600px] flex items-center border-b border-white/5">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
-    <Image src="/img47.png" alt="Contact background" fill sizes="100vw" className="object-cover" />
+    <img src="/img47.png" alt="Contact background" className="w-50% h-50%"  />
     {/* Desktop overlay: solid black left fading to transparent */}
     <div className="absolute inset-0 hidden md:block" style={{background: 'linear-gradient(to right, #000 0%, #000 35%, rgba(0,0,0,0.75) 50%, rgba(0,0,0,0) 70%)'}}></div>
     {/* Mobile overlay */}

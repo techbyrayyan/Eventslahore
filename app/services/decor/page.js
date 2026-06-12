@@ -1,5 +1,4 @@
 'use client';
-import Image from 'next/image';
 
 export default function DecorationPage() {
   return (
@@ -9,13 +8,10 @@ export default function DecorationPage() {
         
         {/* Full-bleed Background Image with Elegant Gradient Fade */}
         <div className="absolute inset-0 z-0">
-          <Image 
+          <img 
             src="/img48.png" 
             alt="Stunning Event Decoration" 
-            fill
-            sizes="100vw"
-            priority
-            className="object-cover object-right md:object-center"
+            className="w-full h-full object-cover object-right md:object-center"
           />
           {/* Desktop Overlay: Solid black on the left, fading to completely transparent before reaching the right side */}
           <div 
@@ -155,7 +151,7 @@ export default function DecorationPage() {
                 <h3 className="text-[13px] md:text-sm font-bold text-[#111] leading-tight text-left">Wedding<br />Decoration</h3>
               </div>
               <div className="w-full aspect-square rounded-lg overflow-hidden mb-4 shrink-0">
-                <Image src="/img49.png" alt="Wedding Decoration" fill sizes="(max-width: 768px) 50vw, 16vw" className="object-cover" />
+                <img src="/img49.png" alt="Wedding Decoration" className="w-full h-full object-cover" />
               </div>
               <p className="text-gray-500 text-xs leading-relaxed text-center mt-auto">
                 Elegant and royal wedding setups tailored to your dream day.
@@ -180,7 +176,7 @@ export default function DecorationPage() {
                 <h3 className="text-[13px] md:text-sm font-bold text-[#111] leading-tight text-left">Stage<br />Decoration</h3>
               </div>
               <div className="w-full aspect-square rounded-lg overflow-hidden mb-4 shrink-0">
-                <Image src="/img50.png" alt="Stage Decoration" fill sizes="(max-width: 768px) 50vw, 16vw" className="object-cover" />
+                <img src="/img50.png" alt="Stage Decoration" className="w-full h-full object-cover" />
               </div>
               <p className="text-gray-500 text-xs leading-relaxed text-center mt-auto">
                 Beautifully designed stages that become the center of attraction.
@@ -205,7 +201,7 @@ export default function DecorationPage() {
                 <h3 className="text-[13px] md:text-sm font-bold text-[#111] leading-tight text-left">Mandap<br />Decoration</h3>
               </div>
               <div className="w-full aspect-square rounded-lg overflow-hidden mb-4 shrink-0">
-                <Image src="/img51.png" alt="Mandap Decoration" fill sizes="(max-width: 768px) 50vw, 16vw" className="object-cover" />
+                <img src="/img51.png" alt="Mandap Decoration" className="w-full h-full object-cover" />
               </div>
               <p className="text-gray-500 text-xs leading-relaxed text-center mt-auto">
                 Traditional or modern mandaps with stunning floral & fabric work.
@@ -227,7 +223,7 @@ export default function DecorationPage() {
                 <h3 className="text-[13px] md:text-sm font-bold text-[#111] leading-tight text-left">Entrance<br />Decoration</h3>
               </div>
               <div className="w-full aspect-square rounded-lg overflow-hidden mb-4 shrink-0">
-                <Image src="/img52.png" alt="Entrance Decoration" fill sizes="(max-width: 768px) 50vw, 16vw" className="object-cover" />
+                <img src="/img52.png" alt="Entrance Decoration" className="w-full h-full object-cover" />
               </div>
               <p className="text-gray-500 text-xs leading-relaxed text-center mt-auto">
                 Grand and welcoming entrances that create the perfect first impression.
@@ -252,7 +248,7 @@ export default function DecorationPage() {
                 <h3 className="text-[13px] md:text-sm font-bold text-[#111] leading-tight text-left">Table &<br />Chair Decor</h3>
               </div>
               <div className="w-full aspect-square rounded-lg overflow-hidden mb-4 shrink-0">
-                <Image src="/img53.png" alt="Table and Chair Decor" fill sizes="(max-width: 768px) 50vw, 16vw" className="object-cover" />
+                <img src="/img53.png" alt="Table and Chair Decor" className="w-full h-full object-cover" />
               </div>
               <p className="text-gray-500 text-xs leading-relaxed text-center mt-auto">
                 Designer table settings and chair decor to match your theme.
@@ -281,7 +277,7 @@ export default function DecorationPage() {
                 <h3 className="text-[13px] md:text-sm font-bold text-[#111] leading-tight text-left">Lighting &<br />Ambience</h3>
               </div>
               <div className="w-full aspect-square rounded-lg overflow-hidden mb-4 shrink-0">
-                <Image src="/img54.png" alt="Lighting and Ambience" fill sizes="(max-width: 768px) 50vw, 16vw" className="object-cover" />
+                <img src="/img54.png" alt="Lighting and Ambience" className="w-full h-full object-cover" />
               </div>
               <p className="text-gray-500 text-xs leading-relaxed text-center mt-auto">
                 Perfect lighting and ambience to enhance the mood of your event.
@@ -316,37 +312,37 @@ export default function DecorationPage() {
             
             {/* Card 1: Royal */}
             <div className="group relative rounded-xl overflow-hidden border border-[#d4af37] transition-all duration-300 aspect-[4/5]">
-              <Image src="/img55.png" alt="Royal Theme" fill sizes="(max-width: 768px) 50vw, 16vw" className="object-cover group-hover:scale-105 transition-transform duration-700" />
+              <img src="/img55.png" alt="Royal Theme" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
 
             </div>
 
             {/* Card 2: Classic */}
             <div className="group relative rounded-xl overflow-hidden border border-[#d4af37] transition-all duration-300 aspect-[4/5]">
-              <Image src="/img56.png" alt="Classic Theme" fill sizes="(max-width: 768px) 50vw, 16vw" className="object-cover group-hover:scale-105 transition-transform duration-700" />
+              <img src="/img56.png" alt="Classic Theme" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
 
             </div>
 
             {/* Card 3: Modern */}
             <div className="group relative rounded-xl overflow-hidden border border-[#d4af37] transition-all duration-300 aspect-[4/5]">
-              <Image src="/img57.png" alt="Modern Theme" fill sizes="(max-width: 768px) 50vw, 16vw" className="object-cover group-hover:scale-105 transition-transform duration-700" />
+              <img src="/img57.png" alt="Modern Theme" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
 
             </div>
 
             {/* Card 4: Floral */}
             <div className="group relative rounded-xl overflow-hidden border border-[#d4af37] transition-all duration-300 aspect-[4/5]">
-              <Image src="/img58.png" alt="Floral Theme" fill sizes="(max-width: 768px) 50vw, 16vw" className="object-cover group-hover:scale-105 transition-transform duration-700" />
+              <img src="/img58.png" alt="Floral Theme" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
 
             </div>
 
             {/* Card 5: Rustic */}
             <div className="group relative rounded-xl overflow-hidden border border-[#d4af37] transition-all duration-300 aspect-[4/5]">
-              <Image src="/img59.png" alt="Rustic Theme" fill sizes="(max-width: 768px) 50vw, 16vw" className="object-cover group-hover:scale-105 transition-transform duration-700" />
+              <img src="/img59.png" alt="Rustic Theme" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
 
             </div>
 
             {/* Card 6: Contemporary */}
             <div className="group relative rounded-xl overflow-hidden border border-[#d4af37] transition-all duration-300 aspect-[4/5]">
-              <Image src="/img60.png" alt="Contemporary Theme" fill sizes="(max-width: 768px) 50vw, 16vw" className="object-cover group-hover:scale-105 transition-transform duration-700" />
+              <img src="/img60.png" alt="Contemporary Theme" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
 
             </div>
 

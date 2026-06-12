@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Image from 'next/image';
 import TestimonialSlider from '../components/TestimonialSlider';
 
 export default function Home() {
@@ -121,7 +120,7 @@ export default function Home() {
           ].map((venue, i) => (
             <div key={i} className="group bg-[#0a0a0a] rounded-[24px] overflow-hidden border border-white/5 transition-all duration-500 hover:border-[#d4af37]/30 hover:shadow-[0_20px_50px_rgba(0,0,0,0.5)]">
               <div className="relative h-56 bg-[#111] overflow-hidden">
-                <Image src={`/hall${i+1}.png`} fill sizes="(max-width: 768px) 100vw, 25vw" className="object-cover opacity-70 group-hover:opacity-100 group-hover:scale-110 transition-all duration-700" alt={venue.title} />
+                <img src={`/hall${i+1}.png`} className="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-110 transition-all duration-700" alt={venue.title} />
                 <div className="absolute top-4 left-4 bg-[#d4af37] text-black text-[9px] font-black px-4 py-1.5 rounded-lg uppercase tracking-widest shadow-xl">
                   {venue.tag}
                 </div>
@@ -164,7 +163,7 @@ export default function Home() {
               <div key={i} className="group bg-[#0a0a0a] rounded-2xl overflow-hidden border border-white/5 hover:border-[#d4af37]/40 transition-all duration-300 flex flex-col cursor-pointer shadow-lg">
                 {/* Image Section */}
                 <div className="h-44 w-full overflow-hidden">
-                  <Image src={service.img} fill sizes="(max-width: 768px) 50vw, 16vw" className="object-cover group-hover:scale-110 transition-transform duration-700 opacity-80 group-hover:opacity-100" alt={service.name} />
+                  <img src={service.img} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 opacity-80 group-hover:opacity-100" alt={service.name} />
                 </div>
 
                 {/* Content Section */}
@@ -204,7 +203,7 @@ export default function Home() {
             <div key={i} className="group bg-[#0a0a0a] rounded-xl overflow-hidden border border-white/5 hover:border-[#d4af37]/30 transition-all duration-300 flex flex-col md:flex-row lg:flex-col xl:flex-row h-full">
               {/* Image Section */}
               <div className="w-full md:w-2/5 lg:w-full xl:w-2/5 min-h-[200px] overflow-hidden">
-                <Image src={pkg.img} fill sizes="(max-width: 768px) 100vw, 40vw" className="object-cover group-hover:scale-110 transition-transform duration-700 opacity-80 group-hover:opacity-100" alt={pkg.title} />
+                <img src={pkg.img} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 opacity-80 group-hover:opacity-100" alt={pkg.title} />
               </div>
 
               {/* Details Section */}
